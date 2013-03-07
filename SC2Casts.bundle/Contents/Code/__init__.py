@@ -34,13 +34,6 @@ def MainMenuWorks():
 			summary = "gameTitle summary"))
 	return oc
 	
-def MainMenuDisabled():
-	dir = MediaContainer(viewMode="List")
-	dir.Append(Function(VideoItem(PlayVideo,
-								  title="media container and videoItem"),
-								  url="http://www.youtube.com/watch?v=johJGsJmf3U"))
-	return dir
-	
 def MainMenu():
 	dir = MediaContainer(viewMode="List")
 	dir.Append(Function(DirectoryItem(GameList, "Recent Casts"), page=RECENT_URL))
