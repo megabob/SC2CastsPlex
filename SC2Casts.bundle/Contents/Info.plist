@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PlexPluginClass</key>
+	<string>Content</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Hello</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.plexapp.plugins.sc2casts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>AAPL</string>
+	<key>CFBundleSignature</key>
+	<string>hook</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>PlexAudioCodec</key>
+	<array>
+		<string>AAC</string>
+	</array>
+	<key>PlexFrameworkVersion</key>
+	<string>2</string>
+	<key>PlexMediaContainer</key>
+	<array>
+		<string>MP4</string>
+	</array>
+	<key>PlexPluginMode</key>
+	<string>AlwaysOn</string>
+	<key>PlexVideoCodec</key>
+	<array>
+		<string>H.264</string>
+	</array>
+	<key>PlexURLServices</key>
+	<dict>
+		<key>YouTube</key>
+		<dict>
+			<key>Identifier</key>
+			<string>com.plexapp.plugins.youtube</string>
+			<key>URLPattern</key>
+			<string>http://.*youtube\.com/(watch)?\?v=</string>
+			<key>TestURLs</key>
+			<array>
+				<string>http://youtube.com/watch?v=vzKbhxY1eQU</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
